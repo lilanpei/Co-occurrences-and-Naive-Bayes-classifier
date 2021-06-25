@@ -16,8 +16,8 @@ Fill in the blanks with your own code and see how it works.
 Get the list of words of documents in the category `news`.
 
 ### 1.1 Compute co-occurrence Matrix
-Constructs a co-occurrence matrix for a certain window-size $n$ (with a default of
-4), considering words $n$ before and $n$ after the word in the center of the window.
+Constructs a co-occurrence matrix for a certain window-size n (with a default of
+4), considering words n before and n after the word in the center of the window.
   * Explore co-occurences
   * Do the same for category ‘hobbies’.
 ### 1.2 Visualize the Vectors
@@ -31,6 +31,5 @@ It contains 50,000 highly polarized reviews, preprocessed, tokenized, indexed an
 numpy arrays.
 * Load the training and test set.
 ### 2.1 Classifier
-
 The classifier should be impelemted as a class with two methods: `train()` and `predict()`.
 ### 2.2 Evaluation
